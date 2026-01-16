@@ -306,7 +306,7 @@ As a page manipulating installed extensions, it could be dangerous.
   &lt;div&gt;
     &lt;input type="hidden" name="form_token" value="$!{services.csrf.getToken()}" /&gt;
     &lt;label for="configSpaceName"&gt;Space: &lt;/label&gt;&lt;input type="text" id="configSpaceName" name="configSpaceName" value="Admin" size="8"/&gt;
-    &lt;label for="configDocName"&gt;Document: &lt;/label&gt;&lt;input type="text" id="configDocName" name="configDocName" value="Document name" class="withTip"'/&gt;         
+    &lt;label for="configDocName"&gt;Document: &lt;/label&gt;&lt;input type="text" id="configDocName" name="configDocName" placeholder="Document name"/&gt;         
     &lt;span class="buttonwrapper"&gt;&lt;input type="submit" value="Create a new configuration" class="button"/&gt;&lt;/span&gt;
   &lt;/div&gt;
 &lt;/form&gt;
